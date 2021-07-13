@@ -1,0 +1,57 @@
+body
+{
+	padding: 0;
+	background-color: #e6e6e6;
+	overflow-x: hidden;
+	font-family: sans-serif;
+}
+
+#header
+{
+	width: 90%;
+	height: 60px;
+	align-items: center;
+	background-color: azure;
+	padding: 15px;
+	border-radius: 5px;
+	color: #262626;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 35px;
+}
+
+font
+{
+	font-weight: normal;
+	font-size: 15px;
+}
+
+#pic
+{
+	margin-top: 15px;
+	border-radius: 5px;
+	width: 90%;
+	padding: 15px;
+	background-color: azure;
+}
+
+img
+{
+	width: 90%;
+	border-radius: 15px;
+}
+
+
+table tr td
+{
+	padding: 15px;
+	text-align: left;
+}
+
+@media (max-width: 500px)
+{
+	#header
+	{
+		height: 90px;
+	}
+}
